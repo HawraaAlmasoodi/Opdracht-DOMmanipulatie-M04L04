@@ -18,7 +18,6 @@ Array.from(btns).forEach(btn => {
 
 let removeFirstItem = () => {
     let parent = document.getElementById("spotted-animals-list");
-    //let child = document.getElementsByClassName("spotted-animals-list-item");
     parent.removeChild(parent.firstElementChild);
 }
 
