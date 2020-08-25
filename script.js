@@ -1,5 +1,5 @@
 
-// Deel 1
+// Deel 1: Elementen toeveogen aan de DOM
 let btns = document.querySelectorAll(".big-five-button");
 Array.from(btns).forEach(btn => {
     btn.addEventListener('click', function () {
@@ -14,7 +14,7 @@ Array.from(btns).forEach(btn => {
 });
 
 
-// Deel 2
+// Deel 2: Element verwijderen uit de DOM
 
 let removeFirstItem = () => {
     let parent = document.getElementById("spotted-animals-list");
@@ -25,7 +25,7 @@ let removeFirstItem = () => {
 let removeListItemButton = document.getElementById("remove-first-item-button");
 removeListItemButton.addEventListener("click", removeFirstItem);
 
-// Deel 3
+// Deel 3: Meerdere elementen verwijderen uit de DOM
 
 let removeAllItems = () => {
     const spottedAnimalsList = document.getElementById("spotted-animals-list");
